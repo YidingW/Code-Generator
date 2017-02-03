@@ -1,0 +1,23 @@
+{
+  "name": "codegenerator",
+  "version": "1.0.0",
+  "description": "Desktop app to help architect/developer to visualize and auto-generate models. ",
+  "main": "main.js",
+  "scripts": {
+    "biuld": "rimraf CodeGenerator-* && electron-packager . --platform=darwin,win32 --arch=x64 --icon=app",
+    "start": "electron --debug .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generate",
+    "architect",
+    "auto"
+  ],
+  "author": "Yiding Wang",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.4.15",
+    "electron-reload": "^1.1.0",
+    "handlebars": "^4.0.6"
+  }
+}
